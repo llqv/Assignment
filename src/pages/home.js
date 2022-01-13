@@ -18,7 +18,7 @@ const HomePage = {
           <div class="grid md:grid-cols-3 gap-8">
             <div class="border shadow rounded p-4">
               <a href="">
-                <img src="images/image-1.jpg" width="500px" height="500px" alt="">
+                <img src="./src/images/image-1.jpg" width="500px" height="500px" alt="">
               </a>
               <h3 class="my-3">
                 <a href="" class="text-orange-500 font-semibold">Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018</a>
@@ -29,7 +29,7 @@ const HomePage = {
             </div>
             <div class="border shadow rounded p-4">
               <a href="">
-                <img src="images/image-1.jpg" width="500px" height="500px" alt="">
+                <img src="./src/images/image-1.jpg" width="500px" height="500px" alt="">
               </a>
               <h3 class="my-3">
                 <a href="" class="text-orange-500 font-semibold">Sinh viên các khối ngành Kinh tế học cách "chạm" vào cảm xúc </a>
@@ -40,7 +40,7 @@ const HomePage = {
             </div>
             <div class="border shadow rounded p-4">
               <a href="">
-                <img src="images/image-1.jpg" width="500px" height="500px" alt="">
+                <img src="./src/images/image-1.jpg" width="500px" height="500px" alt="">
               </a>
               <h3 class="my-3">
                 <a href="" class="text-orange-500 font-semibold">Sinh viên FPoly trai nghiệm thực tế tại Mường Thanh Luxury</a>
