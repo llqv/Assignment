@@ -23,11 +23,11 @@ const Header = {
                 class="transition duration-200 ease-in-out block p-3 text-white font-semibold hover:bg-white hover:text-black">Chương trình đào tạo</a>
             </li>
             <li>
-              <a href=""
+              <a href="/admin/dashboard"
                 class="transition duration-300 ease-in-out block p-3 text-white font-semibold hover:bg-white hover:text-black">Góc sinh viên</a>
             </li>
             <li>
-              <a href=""
+              <a href="/signin"
                 class="transition duration-300 ease-in-out block p-3 text-white font-semibold hover:bg-white hover:text-black">Tuyển dụng</a>
             </li>
            <label><input class="ml-24 my-3 py rounded-lg"><button class="bg-blue-900 w-20 rounded-lg text-white mx-2 hover:bg-sky-500">Tìm kiếm</button></label>   

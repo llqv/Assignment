@@ -1,6 +1,4 @@
 import Navigo from "navigo";
-import Footer from "./components/footer";
-import Header from "./components/header";
 import AboutPage from "./pages/about";
 import DetailPage from "./pages/detail";
 import HomePage from "./pages/home";
@@ -9,14 +7,14 @@ import AdminProductPage from "./pages/admin/product";
 import AdminProductEdit from "./pages/admin/productEdit";
 import SignIn from "./pages/signin";
 import SignUp from "./pages/signup";
-import Dashboard from "./pages/admin/dashboard";
+import AdminNewAdd from "./pages/admin/news/add";
+import DashboardPage from "./pages/dashboard";
+import AdminNews from "./pages/admin/news";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
 const print = (content) => {
-    document.querySelector("#header").innerHTML = Header.render();
     document.querySelector("#app").innerHTML = content;
-    document.querySelector("#footer").innerHTML = Footer.render();
 };
 
 router.on({
@@ -32,9 +30,6 @@ router.on({
     "/signin": () => {
         print(SignIn.render());
     },
-    "/admin/dashboard": () => {
-        print(Dashboard.render());
-    },
     "/signup": () => {
         print(SignUp.render());
     },
@@ -42,12 +37,21 @@ router.on({
         const { id } = data;
         print(DetailPage.render(id));
     },
+    "/admin/dashboard": () => {
+        print(DashboardPage.render());
+    },
+    "/admin/news": () => {
+        print(AdminNews.render());
+    },
     "/admin/product": () => {
         print(AdminProductPage.render());
     },
     "/admin/product/:id/edit": ({ data }) => {
         const { id } = data;
         print(AdminProductEdit.render(id));
+    },
+    "/admin/news/add": () => {
+        print(AdminNewAdd.render());
     },
 });
 
