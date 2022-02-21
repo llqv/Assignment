@@ -1,0 +1,172 @@
+{
+  "posts": [
+    {
+      "createdAt": "2022-01-15T02:34:50.705Z",
+      "title": "Proin vel ligula",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180191/big-02_gg7diy.jpg",
+      "desc": "Proin vel ligula",
+      "id": "7"
+    },
+    {
+      "createdAt": "2022-01-15T01:54:24.955Z",
+      "title": "Erat odio rhoncus",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180191/big-03_ylfavl.jpg",
+      "desc": "Erat odio rhoncus",
+      "id": "8"
+    },
+    {
+      "createdAt": "2022-01-15T02:36:13.715Z",
+      "title": "Integer vel turpis",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180191/big-04_bvtbz2.jpg",
+      "desc": "Integer vel turpis",
+      "id": "9"
+    },
+    {
+      "createdAt": "2022-01-14T12:38:27.738Z",
+      "title": "Sed purus quam",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180191/big-01_f5iljr.jpg",
+      "desc": "Sed purus quam",
+      "id": "10"
+    },
+    {
+      "createdAt": "2022-01-14T17:58:26.446Z",
+      "title": "Morbi aliquet",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-01_zkmae3.jpg",
+      "desc": "Morbi aliquet",
+      "id": "11"
+    },
+    {
+      "createdAt": "2022-01-15T02:21:11.908Z",
+      "title": "Urna ac diam",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-01_zkmae3.jpg",
+      "desc": "Urna ac diam",
+      "id": "13"
+    },
+    {
+      "createdAt": "2022-01-14T11:14:02.843Z",
+      "title": "Lorena Cole",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-05_dy99bg.jpg",
+      "desc": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "id": "14"
+    },
+    {
+      "createdAt": "2022-01-15T00:11:58.958Z",
+      "title": "Vừa sửa",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-03_wcsprl.jpg",
+      "desc": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "id": "15"
+    },
+    {
+      "createdAt": "2022-01-15T04:39:49.775Z",
+      "title": "anh dep trai so 2 khong ai so 1",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/product-01_nizxgz.jpg",
+      "desc": "day la mo ta",
+      "id": "16"
+    },
+    {
+      "createdAt": "2022-01-10T20:33:27.477Z",
+      "title": "Yolanda Roob",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/product-02_jktxfm.jpg",
+      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "id": "19"
+    },
+    {
+      "0": {
+        "createdAt": "2022-01-10T20:33:27.477Z",
+        "title": "Bài viết mới",
+        "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-04_f0izet.jpg",
+        "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "id": "2"
+      },
+      "createdAt": "2022-01-18T23:32:25.238Z",
+      "title": "Bennie Moore",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180193/product-04_q4uawq.jpg",
+      "desc": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "id": "21"
+    },
+    {
+      "createdAt": "2022-01-18T09:17:36.448Z",
+      "title": "David Beahan",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180191/big-01_f5iljr.jpg",
+      "desc": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "id": "22"
+    },
+    {
+      "createdAt": "2022-01-18T19:58:18.894Z",
+      "title": "Erin Herman",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180191/big-03_ylfavl.jpg",
+      "desc": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "id": "23"
+    },
+    {
+      "createdAt": "2022-01-18T19:25:18.728Z",
+      "title": "Genevieve Upton II",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-04_f0izet.jpg",
+      "desc": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "id": "25"
+    },
+    {
+      "0": {
+        "createdAt": "2022-01-10T20:33:27.477Z",
+        "title": "Bài viết mới frreewrertr",
+        "img": "https://res.cloudinary.com/local12/image/upload/v1645180191/big-01_f5iljr.jpg",
+        "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "id": "2"
+      },
+      "createdAt": "2022-01-18T12:48:44.521Z",
+      "title": "Martha Bauch",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180193/product-03_e7dywb.jpg",
+      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "id": "27"
+    }
+  ],
+  "products": [
+    {
+      "name": "Sản phẩm A",
+      "img": "http://placeimg.com/640/480/nature",
+      "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "100",
+      "id": "1"
+    },
+    {
+      "name": "Sản phẩm B",
+      "img": "http://placeimg.com/640/480/nature",
+      "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "200",
+      "id": "2"
+    },
+    {
+      "name": "Sản phẩm C",
+      "img": "http://placeimg.com/640/480/nature",
+      "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "price": "300",
+      "id": "3"
+    }
+  ],
+  "users": [
+    {
+      "email": "vulq@gmail.com",
+      "password": "$2a$10$/sVupukcWOXsBydR9gAczeUBRdwztlXaX6K2E7PwPyY3k.Njc7d5m",
+      "username": "vulq",
+      "id": 1
+    },
+    {
+      "email": "vulqph1@gmail.com",
+      "password": "$2a$10$3FDiVgGBy9iBvQFWycGISeYv3IXMXz1OQuiR4eLPykokVR7l9jCkO",
+      "username": "vulqph",
+      "id": 2
+    },
+    {
+      "email": "vulq@gmail.comph",
+      "password": "$2a$10$DMmWvv6sqbTHz7uyo/Dip.dB1MOCPnhnffybIq/.UFQzASfUfToYa",
+      "username": "vulqph",
+      "id": 3
+    },
+    {
+      "email": "vulqph@gmail.com",
+      "password": "$2a$10$ijfL8OjyG1/aQFIrkSDVjedZUFUDpd58i68X58sUhsC5IKWmW0h4q",
+      "username": "vulqph",
+      "id": 4
+    }
+  ]
+}
