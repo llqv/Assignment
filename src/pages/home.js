@@ -33,7 +33,7 @@ const HomePage = {
         <div class="subfooter">
         ${Subfooter.render()}
         </div>
-        `;
+        `
     },
     afterRender() {
         Header.afterRender();
