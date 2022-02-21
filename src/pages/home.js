@@ -1,5 +1,5 @@
 import Banner from "../components/banner";
-import Featred from "./featred";
+import Featred from "../components/featred";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Subfooter from "../components/sub-footer";
