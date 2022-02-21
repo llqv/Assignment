@@ -81,9 +81,7 @@ const cartPage = {
         ${Footer.render()}
         </footer>
 
-        <div class="subfooter">
-        ${Subfooter.render()}
-        </div>
+    
             `
   },
   afterRender() {
