@@ -3,6 +3,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Subfooter from "../../components/sub-footer";
 import Subcribe from "../../components/subcribe";
+import { getAll } from "../../api/product";
 
 // import { addToCart } from '../../utils/cart';
 // import toastr from "toastr";
@@ -27,13 +28,10 @@ const DetailProduct = {
           </div>
           <div class="col-md-6">
             <div class="product-slider">
-              <div id="slider" class="flexslider">
-                <ul class="slides">
-                  <li>
-                    <img src="${products.img}" />
-                  </li>
+              <div>
+                    <img style="width:500px;height:370px;center;" src="${products.img}" />
+              
                   <!-- items mirrored twice, total of 12 -->
-                </ul>
               </div>
               <div id="carousel" class="flexslider">
             
@@ -48,8 +46,8 @@ const DetailProduct = {
               <span>7 left on stock</span>
               <form action="" method="get">
                 <label for="quantity">Quantity :</label>
-                <input name="quantity" type="quantity" id="inputValue" class="quantity-text">
-               <button  data-id="${products.id}" id="btnAddTocart">Add To Card</button>
+                <input type="quantity" class="quantity-text">
+               <button id="btnAddTocart">Add To Card</button>
               </form>
               <div class="down-content">
                 <div class="categories">
@@ -70,15 +68,15 @@ const DetailProduct = {
     <!-- Similar Starts Here -->
     <div class="featured-items">
       <div class="container">
-        <div class="row">
+        <div>
           <div class="col-md-12">
             <div class="section-heading">
               <div class="line-dec"></div>
               <h1>You May Also Like</h1>
             </div>
           </div>
-          <div class="col-md-12">
-            <div class="owl-carousel owl-theme">
+          <div>
+            <div style="display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
               <a href="/#/product/${products.id}">
                 <div class="featured-item">
                   <img src="${products.img}" alt="Item 1">

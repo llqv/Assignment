@@ -1,9 +1,5 @@
-import axios from "axios";
-
 const Featred = {
-  async render() {
-    const { data } = await axios.get("http://localhost:3001/products");
-    console.log(data)
+  render() {
     return /*html*/`
 <!-- Featured Starts Here -->
   <div class="featured-items">
@@ -16,15 +12,70 @@ const Featred = {
           </div>
         </div>
         <div class="col-md-12">
-        ${data.map((products) => `
           <div class="owl-carousel owl-theme">
-            <a href="/#/products/${products.id}">
+            <a href="/#/products/1">
               <div class="featured-item">
-                <img src="${products.img}">
-                <h4>${products.name}</h4>
-                <h6>${products.price}</h6>
+                <img src="./src/assets/images/item-01.jpg" alt="Item 1">
+                <h4>Proin vel ligula</h4>
+                <h6>$15.00</h6>
               </div>
-           `).join("")}
+            </a>
+            <a href="/#/products/2">
+              <div class="featured-item">
+                <img src="./src/assets/images/item-02.jpg" alt="Item 2">
+                <h4>Erat odio rhoncus</h4>
+                <h6>$25.00</h6>
+              </div>
+            </a>
+            <a href="/#/products/3">
+              <div class="featured-item">
+                <img src="./src/assets/images/item-03.jpg" alt="Item 3">
+                <h4>Integer vel turpis</h4>
+                <h6>$35.00</h6>
+              </div>
+            </a>
+            <a href="/#/products/10">
+              <div class="featured-item">
+                <img src="./src/assets/images/item-04.jpg" alt="Item 4">
+                <h4>Sed purus quam</h4>
+                <h6>$45.00</h6>
+              </div>
+            </a>
+            <a href="/#/products/11">
+              <div class="featured-item">
+                <img src="./src/assets/images/item-05.jpg" alt="Item 5">
+                <h4>Morbi aliquet</h4>
+                <h6>$55.00</h6>
+              </div>
+            </a>
+            <a href="/#/products/13">
+              <div class="featured-item">
+                <img src="./src/assets/images/item-06.jpg" alt="Item 6">
+                <h4>Urna ac diam</h4>
+                <h6>$65.00</h6>
+              </div>
+            </a>
+            <a href="/#/products/14">
+              <div class="featured-item">
+                <img src="./src/assets/images/item-04.jpg" alt="Item 7">
+                <h4>Proin eget imperdiet</h4>
+                <h6>$75.00</h6>
+              </div>
+            </a>
+            <a href="/#/products/15">
+              <div class="featured-item">
+                <img src="./src/assets/images/item-05.jpg" alt="Item 8">
+                <h4>Nullam risus nisl</h4>
+                <h6>$85.00</h6>
+              </div>
+            </a>
+            <a href="/#/products/16">
+              <div class="featured-item">
+                <img src="./src/assets/images/item-06.jpg" alt="Item 9">
+                <h4>Cras tempus</h4>
+                <h6>$95.00</h6>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -32,7 +83,10 @@ const Featred = {
   </div>
   <!-- Featred Ends Here -->
 
-    `}
+    `},
+  afterRender() {
+    Featred.afterRender();
+  },
 };
 export default Featred;
 
