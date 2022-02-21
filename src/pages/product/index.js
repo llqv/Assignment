@@ -18,7 +18,7 @@ const ProductsPage = {
           <div class="col-md-4 col-sm-12">
             <div class="section-heading">
               <div class="line-dec"></div>
-              <h1>Featured Items</h1>
+              <h1>Product</h1>
             </div>
           </div>
           <div class="col-md-8 col-sm-12">

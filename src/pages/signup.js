@@ -1,6 +1,7 @@
 import Header from "../components/header";
-import Footer from "../components/footer";
+
 import { signup } from "../api/user";
+import Footer from "../components/footer";
 
 const Signup = {
   render() {
@@ -39,10 +40,10 @@ const Signup = {
     </form>
   </div>
    
+  <div>
+  ${Footer.render()}
+  </div>
 
-       <footer id="footer">
-        ${Footer.render()}
-        </footer>
 
         
         `

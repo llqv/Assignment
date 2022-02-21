@@ -11,7 +11,7 @@ const Featured = {
           <div class="col-md-12">
             <div class="section-heading">
               <div class="line-dec"></div>
-              <h1>You May Also Like</h1>
+              <h1>Featred Product</h1>
             </div>
           </div>
           <div  style="display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">

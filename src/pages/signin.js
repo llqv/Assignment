@@ -1,6 +1,7 @@
 import { signin } from "../api/user";
-import Header from "../components/header";
 import Footer from "../components/footer";
+import Header from "../components/header";
+
 
 
 
@@ -45,10 +46,11 @@ const Signin = {
     </form>
   </div>
      
+  <div>
+  ${Footer.render()}
+  </div>
 
-       <footer id="footer">
-        ${Footer.render()}
-        </footer>
+    
 
         `;
   },
