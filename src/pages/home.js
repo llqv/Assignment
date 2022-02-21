@@ -1,13 +1,9 @@
 import Banner from "../components/banner";
 import Featred from "../components/featred";
-import Footer from "../components/footer";
 import Header from "../components/header";
-import Subfooter from "../components/sub-footer";
-import Subcribe from "../components/subcribe";
-
 
 const HomePage = {
-    render() {
+    async render() {
         return /*html*/ `
 
         <header id="header">
@@ -19,20 +15,8 @@ const HomePage = {
         </div>   
 
         <div class="featred">
-        ${Featred.render()}
-        </div>   
-
-        <div class="subcribe">
-        ${Subcribe.render()}
-        </div>        
-         
-        <footer id="footer">
-        ${Footer.render()}
-        </footer>
-
-        <div class="subfooter">
-        ${Subfooter.render()}
-        </div>
+        ${await Featred.render()}
+        </div>         
         `;
     },
     afterRender() {

@@ -1,7 +1,5 @@
 import Header from "../components/header";
-import Footer from "../components/footer";
-import Subfooter from "../components/sub-footer";
-import Subcribe from "../components/subcribe";
+
 import { signup } from "../api/user";
 
 const Signup = {
@@ -40,17 +38,10 @@ const Signup = {
       </div>
     </form>
   </div>
-   <div class="subcribe">
-        ${Subcribe.render()}
-        </div> 
 
-       <footer id="footer">
-        ${Footer.render()}
-        </footer>
 
-        <div class="subfooter">
-        ${Subfooter.render()}
-        </div>
+    
+
         `
   },
   afterRender() {
