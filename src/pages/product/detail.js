@@ -1,8 +1,7 @@
 import { get } from "../../api/product";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import Subfooter from "../../components/sub-footer";
-import Subcribe from "../../components/subcribe";
+
 
 // import { addToCart } from '../../utils/cart';
 // import toastr from "toastr";
