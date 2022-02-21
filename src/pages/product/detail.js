@@ -1,13 +1,9 @@
 import { get } from "../../api/product";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-<<<<<<< HEAD
 import Subfooter from "../../components/sub-footer";
 import Subcribe from "../../components/subcribe";
 import { getAll } from "../../api/product";
-=======
-
->>>>>>> e19f8652e960dc90619af56c80380006d77c3e74
 
 // import { addToCart } from '../../utils/cart';
 // import toastr from "toastr";
