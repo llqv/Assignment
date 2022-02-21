@@ -1,5 +1,5 @@
 import Contacts from "../components/contacts";
-import Footer from "../components/footer";
+
 import Header from "../components/header";
 
 const ContactPage = {
@@ -14,9 +14,7 @@ const ContactPage = {
         ${Contacts.render()}
         </div>
     
-        <footer id="footer">
-        ${Footer.render()}
-        </footer>
+     
 
       
         `

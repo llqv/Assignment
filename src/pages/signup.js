@@ -1,5 +1,5 @@
 import Header from "../components/header";
-import Footer from "../components/footer";
+
 import { signup } from "../api/user";
 
 const Signup = {
@@ -40,9 +40,7 @@ const Signup = {
   </div>
 
 
-       <footer id="footer">
-        ${Footer.render()}
-        </footer>
+    
 
         `
   },
