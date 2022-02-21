@@ -1,7 +1,5 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Subfooter from "../components/sub-footer";
-import Subcribe from "../components/subcribe";
 import { signup } from "../api/user";
 
 const Signup = {

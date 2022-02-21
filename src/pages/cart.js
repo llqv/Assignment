@@ -2,7 +2,7 @@
 // import { decreaseQuantity, increaseQuantity, removeItemInCart } from "../utils/cart";
 import Footer from "../components/footer";
 import Header from "../components/header";
-import Subfooter from "../components/sub-footer";
+
 
 
 
