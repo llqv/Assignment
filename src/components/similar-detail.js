@@ -1,9 +1,9 @@
 import { getAll } from "../api/product";
 
-const Featured = {
-  async render() {
-    const response = await getAll();
-    return/*html*/`
+const similarDetail = {
+    async render() {
+        const response = await getAll();
+        return/*html*/`
         <!-- Similar Starts Here -->
     <div class="featured-items">
       <div class="container">
@@ -34,7 +34,7 @@ const Featured = {
     </div>
     <!-- Similar Ends Here -->
         `
-  },
+    },
 
 };
-export default Featured;
+export default similarDetail;

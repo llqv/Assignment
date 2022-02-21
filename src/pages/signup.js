@@ -38,17 +38,13 @@ const Signup = {
       </div>
     </form>
   </div>
-   <div class="subcribe">
-        ${Subcribe.render()}
-        </div> 
+   
 
        <footer id="footer">
         ${Footer.render()}
         </footer>
 
-        <div class="subfooter">
-        ${Subfooter.render()}
-        </div>
+        
         `
   },
   afterRender() {

@@ -1,6 +1,6 @@
 const Banner = {
-    render() {
-        return /*html*/ `
+  render() {
+    return /*html*/ `
         <!-- Banner Starts Here -->
     <div class="container">
       <div class="row">
@@ -24,6 +24,6 @@ const Banner = {
   </div>
   <!-- Banner Ends Here -->
         `;
-    },
+  },
 };
 export default Banner;

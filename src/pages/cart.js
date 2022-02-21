@@ -1,5 +1,4 @@
-// import { reRender } from "../utils";
-// import { decreaseQuantity, increaseQuantity, removeItemInCart } from "../utils/cart";
+
 import Footer from "../components/footer";
 import Header from "../components/header";
 
@@ -17,6 +16,7 @@ const cartPage = {
         <header id="header">
         ${Header.render()}
         </header>
+
      <h1>Shopping Cart</h1>
 
 <div class="shopping-cart">
@@ -77,13 +77,11 @@ const cartPage = {
       <button class="checkout">Checkout</button>
 
 </div>
- <footer id="footer">
+
+       <footer id="footer">
         ${Footer.render()}
         </footer>
 
-        <div class="subfooter">
-        ${Subfooter.render()}
-        </div>
             `
   },
   afterRender() {

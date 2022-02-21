@@ -1,6 +1,9 @@
 const Footer = {
   render() {
-    return /*html*/`
+    return/*html*/`
+        
+
+
   <!-- Footer Starts Here -->
   <div class="footer">
     <div class="container">
@@ -35,6 +38,9 @@ const Footer = {
     </div>
   </div>
   <!-- Footer Ends Here -->
-    `}
+
+
+        `
+  }
 };
 export default Footer;
