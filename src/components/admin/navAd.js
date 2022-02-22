@@ -5,8 +5,8 @@ const navAd = {
   <header>
     <nav class="rad-navigation">
       <div class="rad-logo-container">
+      
         <a href="#" class="rad-logo">Ash-Board</a>
-   
       </div>
      
     </nav>

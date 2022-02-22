@@ -2,6 +2,7 @@ import axios from "axios";
 import { add } from "../../../api/product";
 import navAd from "../../../components/admin/navAd";
 
+
 const adminAddPost = {
     async render() {
         return/*html*/`
@@ -48,7 +49,6 @@ const adminAddPost = {
     afterRender() {
         const formAdd = document.querySelector("#form-add");
         const imgProduct = document.querySelector("#img-product");
-
         const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/local12/image/upload";
         const CLOUDINARY_PRESET = "ytxcvjqq";
         let imgLink = "";
@@ -85,7 +85,7 @@ const adminAddPost = {
             });
             window.location.href = "/#/admin/dashboard";
 
-            reRender(AdminNewsPage, "#app");
+
         });
     },
 };

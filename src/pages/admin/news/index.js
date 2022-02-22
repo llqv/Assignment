@@ -11,8 +11,6 @@ const adminNew = {
          <div>
          ${adminAddPost.render()}
          </div>
-
-
         `
     }
 };

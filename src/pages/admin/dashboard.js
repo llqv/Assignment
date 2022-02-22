@@ -14,5 +14,8 @@ const DashboardPage = {
 
         `
     },
+    afterRender() {
+        adminProductList.afterRender();
+    },
 };
 export default DashboardPage;

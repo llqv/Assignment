@@ -1,14 +1,15 @@
-import { getAll } from "../../api/product";
+import { getAll, remove } from "../../api/product";
 
 
 const adminProductList = {
 	async render() {
-		const response = await getAll();
+		const { data } = await getAll();
 		return/*html*/`
         <div style="width:100%;padding-left:250px;padding-right:20px">
+	
 		
 	<div class="table">
-	<button><a href="/admin/news/index">Add</button>
+	
 		<div style="text-align:left;" class="table-header">
 			<div class="header__item"><a id="name" class="filter__link" href="#">ID</a></div>
 			<div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Name</a></div>
@@ -21,7 +22,7 @@ const adminProductList = {
 			
 		</div>
 		<div class="table-content">	
-		${response.data.map((products, index) => /*html*/`
+		${data.map((products, index) => /*html*/`
 			<div class="table-row">		
 				<div class="table-data">${index + 1}</div>
 				<div class="table-data">${products.name}</div>
@@ -32,8 +33,8 @@ const adminProductList = {
 				<div class="table-data">${products.price}</div>
 				<ul>
 				<div class="table-data">
-				<li><button>Delete</button></li>
-				<li><a href="/admin/news/:id/edit"><button>Edit</button></a></li>
+				<span  data-id="${products.id}" class="btn btn-remove"><button>Delete</button>
+				<a href="/admin/news/${products.id}/edit"><button>Edit</button></a>
 				</div>
 				
 			</div>
@@ -41,6 +42,21 @@ const adminProductList = {
 	 `).join("")}
 </div>
         `
+	},
+	afterRender() {
+		const btns = document.querySelectorAll('.btn');
+		btns.forEach(btn => {
+			const id = btn.dataset.id;
+			console.log(id)
+			btn.addEventListener('click', async function () {
+				const confirm = window.confirm("Bạn có chắc chắn không??");
+				if (confirm) {
+					remove(id).then(() => {
+						window.location.href = "/#/admin/dashboard";
+					})
+				}
+			})
+		});
 	}
 };
 export default adminProductList;
