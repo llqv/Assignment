@@ -136,49 +136,85 @@
   ],
   "products": [
     {
-      "id": "Ss1_Qbs",
-      "name": "4",
-      "img": "http://res.cloudinary.com/local12/image/upload/v1645532842/arvlw2xhizgfwqbumm20.jpg",
-      "desc": "1",
-      "quantity": "4",
+      "id": 1,
+      "name": "Morbi aliquet",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-04_f0izet.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "50",
       "categories": "Tee",
-      "price": "20.000"
+      "price": "$45.00"
     },
     {
-      "name": "7",
-      "img": "https://res.cloudinary.com/local12/image/upload/v1645527326/d6l61mlefld3sryu2lae.jpg",
-      "desc": "7",
-      "quantity": "7",
-      "categories": "Pants",
-      "price": "7",
-      "id": "L8m4sEm"
-    },
-    {
-      "name": "vu le vu",
-      "img": "http://res.cloudinary.com/local12/image/upload/v1645529923/fgqxuwrxdtqnqxzg8gub.jpg",
-      "desc": "1233",
-      "quantity": "dfgffdgfdg",
+      "id": 2,
+      "name": "Urna ac diam",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-05_dy99bg.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "50",
       "categories": "Tee",
-      "price": "5",
-      "id": "fUhcN_c"
+      "price": "$55.00"
     },
     {
-      "name": "255",
-      "img": "http://res.cloudinary.com/local12/image/upload/v1645529948/om6zh26d14bn5iuhnqfl.jpg",
-      "desc": "dsfgds",
-      "quantity": "123",
+      "id": 3,
+      "name": "Nullam risus nisl",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645546701/ofpg8nhmxjwrakirpiby.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "50",
       "categories": "Tee",
-      "price": "34",
-      "id": "yFwT_Mc"
+      "price": "$85.00"
     },
     {
-      "name": "10",
-      "img": "http://res.cloudinary.com/local12/image/upload/v1645531337/ca9wc5dmea9gn8cmnf7t.jpg",
-      "desc": "10",
-      "quantity": "10",
-      "categories": "Pants",
-      "price": "10",
-      "id": "ysr4LDz"
+      "name": "Cras tempus",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645546928/j0acdllphobyv5rkvamq.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "30",
+      "categories": "Tee",
+      "price": "$95.00",
+      "id": 4
+    },
+    {
+      "name": "Sed purus quam",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645547497/vfxa6mhp2o3vnys8cuy7.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "50",
+      "categories": "Tee",
+      "price": "$45.00",
+      "id": 5
+    },
+    {
+      "name": "Erat idio rhoncus",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645547753/qfbt6032pvudwtuxowcj.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "40",
+      "categories": "Tee",
+      "price": "$95.00",
+      "id": 6
+    },
+    {
+      "name": "Cras tempus",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645546928/j0acdllphobyv5rkvamq.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "30",
+      "categories": "Tee",
+      "price": "$95.00",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Urna ac diam",
+      "img": "https://res.cloudinary.com/local12/image/upload/v1645180192/item-05_dy99bg.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "50",
+      "categories": "Tee",
+      "price": "$55.00"
+    },
+    {
+      "name": "Cras tempus",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645546928/j0acdllphobyv5rkvamq.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "quantity": "30",
+      "categories": "Tee",
+      "price": "$95.00",
+      "id": 9
     }
   ],
   "users": [

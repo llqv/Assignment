@@ -6,10 +6,10 @@ const adminProductList = {
 		const { data } = await getAll();
 		return/*html*/`
         <div style="width:100%;padding-left:250px;padding-right:20px">
-	
+	    
 		
 	<div class="table">
-	
+	<button><a href="/admin/news/index"> Add Product</a></button>
 		<div style="text-align:left;" class="table-header">
 			<div class="header__item"><a id="name" class="filter__link" href="#">ID</a></div>
 			<div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Name</a></div>
@@ -47,14 +47,12 @@ const adminProductList = {
 		const btns = document.querySelectorAll('.btn');
 		btns.forEach(btn => {
 			const id = btn.dataset.id;
-			console.log(id)
 			btn.addEventListener('click', async function () {
-				const confirm = window.confirm("Bạn có chắc chắn không??");
-				if (confirm) {
-					remove(id).then(() => {
-						window.location.href = "/#/admin/dashboard";
-					})
-				}
+
+				remove(id).then(() => {
+					window.location.href = "/#/admin/dashboard";
+				})
+
 			})
 		});
 	}

@@ -12,6 +12,9 @@ const adminNew = {
          ${adminAddPost.render()}
          </div>
         `
+    },
+    afterRender() {
+        adminAddPost.render();
     }
 };
 export default adminNew;

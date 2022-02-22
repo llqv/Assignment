@@ -1,4 +1,5 @@
 import adminProductList from "../../components/admin/product";
+import adminEditPost from "./news/edit";
 
 const adminProductPage = {
     render() {
@@ -7,6 +8,9 @@ const adminProductPage = {
         ${adminProductList.render()}
         </div>
         `
+    },
+    afterRender() {
+        adminEditPost.render();
     }
 };
 export default adminProductPage;

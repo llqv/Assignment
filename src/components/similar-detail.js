@@ -1,9 +1,9 @@
 import { getAll } from "../api/product";
 
 const similarDetail = {
-    async render() {
-        const response = await getAll();
-        return/*html*/`
+  async render() {
+    const response = await getAll();
+    return/*html*/`
         <!-- Similar Starts Here -->
     <div class="featured-items">
       <div class="container">
@@ -21,7 +21,7 @@ const similarDetail = {
                 <div class="featured-item">
                   <img src="${products.img}" alt="">
                   <h4>${products.name}</h4>
-                  <h6>${products.desc}</h6>
+                  <h6>${products.price}</h6>
                 </div>
               </a>     
             </div>
@@ -34,7 +34,7 @@ const similarDetail = {
     </div>
     <!-- Similar Ends Here -->
         `
-    },
+  },
 
 };
 export default similarDetail;
