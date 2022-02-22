@@ -9,6 +9,7 @@ import Signin from "./pages/signin";
 import Signup from "./pages/signup";
 import cartPage from "./pages/cart";
 import adminAddPost from "./pages/admin/news/add";
+import adminEditPost from "./pages/admin/news/edit";
 
 
 
@@ -44,6 +45,7 @@ router.on({
   "/signup": () => print(Signup),
   "/admin/dashboard": () => print(DashboardPage),
   "/admin/news/index": () => print(adminAddPost),
+  "/admin/news/:id/edit": ({ data }) => print(adminEditPost, data.id)
 });
 router.resolve();
 

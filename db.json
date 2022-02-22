@@ -118,6 +118,20 @@
       "img": "https://res.cloudinary.com/local12/image/upload/v1645180193/product-03_e7dywb.jpg",
       "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
       "id": "27"
+    },
+    {
+      "name": "1",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645525430/n7hypmdh9ijr1g4hs46a.jpg",
+      "desc": "1",
+      "quanti": "1",
+      "id": "iQRAto2"
+    },
+    {
+      "name": "",
+      "img": "",
+      "desc": "",
+      "quanti": "",
+      "id": "GLd7eUw"
     }
   ],
   "products": [
@@ -126,6 +140,7 @@
       "img": "https://res.cloudinary.com/local12/image/upload/v1645180193/thumb-03_trlntg.jpg",
       "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
       "price": "100",
+      "quantity": "1",
       "id": "1"
     },
     {
@@ -133,6 +148,7 @@
       "img": "https://res.cloudinary.com/local12/image/upload/v1645180193/thumb-03_trlntg.jpg",
       "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
       "price": "200",
+      "quantity": "1",
       "id": "2"
     },
     {
@@ -141,6 +157,30 @@
       "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
       "price": "300",
       "id": "3"
+    },
+    {
+      "name": "1",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645525600/kybzembxmugqh80guiko.jpg",
+      "desc": "1",
+      "quantity": "1",
+      "id": "PDE6E4a"
+    },
+    {
+      "name": "3",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645526827/uol23fog0ggvfqh3kuph.jpg",
+      "desc": "3",
+      "quantity": "3",
+      "categories": "Pants",
+      "id": "asysQB9"
+    },
+    {
+      "name": "4",
+      "img": "http://res.cloudinary.com/local12/image/upload/v1645527326/d6l61mlefld3sryu2lae.jpg",
+      "desc": "4",
+      "quantity": "4",
+      "categories": "Pants",
+      "price": "20.000",
+      "id": "Ss1_Qbs"
     }
   ],
   "users": [
