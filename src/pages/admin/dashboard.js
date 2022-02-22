@@ -1,11 +1,17 @@
 import navAd from "../../components/admin/navAd";
+import adminProductList from "../../components/admin/product";
 
 const DashboardPage = {
-    render() {
+    async render() {
         return/*html*/`
         <div>
         ${navAd.render()}
         </div>
+
+        <div>
+        ${await adminProductList.render()}
+        </div>
+
         `
     },
 };

@@ -8,6 +8,7 @@ import DetailProduct from "./pages/product/detail";
 import Signin from "./pages/signin";
 import Signup from "./pages/signup";
 import cartPage from "./pages/cart";
+import adminAddPost from "./pages/admin/news/add";
 
 
 
@@ -42,6 +43,7 @@ router.on({
   "/signin": () => print(Signin),
   "/signup": () => print(Signup),
   "/admin/dashboard": () => print(DashboardPage),
+  "/admin/news/index": () => print(adminAddPost),
 });
 router.resolve();
 
