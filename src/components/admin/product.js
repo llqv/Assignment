@@ -9,7 +9,6 @@ const adminProductList = {
 	    
 		
 	<div class="table">
-	<button><a href="/admin/news/index"> Add Product</a></button>
 		<div style="text-align:left;" class="table-header">
 			<div class="header__item"><a id="name" class="filter__link" href="#">ID</a></div>
 			<div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Name</a></div>

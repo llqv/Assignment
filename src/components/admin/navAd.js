@@ -17,21 +17,20 @@ const navAd = {
     <ul style="list-style:none">
       <li>
         <a href="/#/admin/dashboard" class="inbox">
-          <i class="fa fa-dashboard"></span></i>
+          <i></span></i>
           <span class="rad-sidebar-item">Dashboard</span>
         </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fa fa-bar-chart-o">
-           
+        <a href="/admin/news/index">
+          <i>   
           </i>
-          <span class="rad-sidebar-item">Ticket status</span>
+          <span class="rad-sidebar-item">Add Product</span>
         </a>
       </li>
-      <li><a href="#" class="snooz"><i class="fa fa-line-chart"></i><span class="rad-sidebar-item">Call trends</span></a></li>
-      <li><a href="#" class="done"><i class="fa fa-area-chart"></span></i><span class="rad-sidebar-item">Heat maps</span></a></li>
-      <li><a href="#"><i class="fa fa-wrench"></i><span class="rad-sidebar-item">Settings</span></a></li>
+      <li><a href="#" class="snooz"><i></i><span class="rad-sidebar-item">Call trends</span></a></li>
+      <li><a href="#" class="done"><i></span></i><span class="rad-sidebar-item">Heat maps</span></a></li>
+      <li><a href="#"><i></i><span class="rad-sidebar-item">Settings</span></a></li>
     </ul>
   </nav>
 </aside>
