@@ -42,7 +42,7 @@ const DetailProduct = {
               <h4>${products.name}</h4>
               <h6>${products.price}</h6>
               <p>${products.desc}</p>
-              <span>7 left on stock</span>
+              <span>${products.categories}</span>
               <form action="" method="get">
                 <label for="quantity">Quantity :</label>
                 <input type="quantity" class="quantity-text">

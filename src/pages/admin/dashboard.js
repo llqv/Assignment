@@ -1,5 +1,7 @@
 import navAd from "../../components/admin/navAd";
 import adminProductList from "../../components/admin/product";
+import adminAddPost from "./news/add";
+import adminEditPost from "./news/edit";
 
 const DashboardPage = {
     async render() {
@@ -16,6 +18,8 @@ const DashboardPage = {
     },
     afterRender() {
         adminProductList.afterRender();
+        adminEditPost.render();
+        adminAddPost.render();
     },
 };
 export default DashboardPage;

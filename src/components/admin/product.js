@@ -33,7 +33,7 @@ const adminProductList = {
 				<div class="table-data">${products.price}</div>
 				<ul>
 				<div class="table-data">
-				<span  data-id="${products.id}" class="btn btn-remove"><button>Delete</button>
+				<span  data-id="${products.id}" class=" btn btn-remove"><button>Delete</button></span>
 				<a href="/admin/news/${products.id}/edit"><button>Edit</button></a>
 				</div>
 				
@@ -48,8 +48,8 @@ const adminProductList = {
 		btns.forEach(btn => {
 			const id = btn.dataset.id;
 			btn.addEventListener('click', async function () {
-
-				remove(id).then(() => {
+				alert("Bạn có muốn xoá không?")
+				await remove(id).then(() => {
 					window.location.href = "/#/admin/dashboard";
 				})
 

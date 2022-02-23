@@ -17,7 +17,7 @@ const similarDetail = {
           <div  style="display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
            ${response.data.map((products) => /*html*/`
             <div>
-             <a href="/#/products/${products.id}">
+             <a onclick="goToHead()" href="/#/products/${products.id}">
                 <div class="featured-item">
                   <img src="${products.img}" alt="">
                   <h4>${products.name}</h4>
@@ -35,6 +35,5 @@ const similarDetail = {
     <!-- Similar Ends Here -->
         `
   },
-
 };
 export default similarDetail;

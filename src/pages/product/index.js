@@ -42,7 +42,7 @@ const ProductsPage = {
                 <div class="featured-item">
                   <img src="${products.img}" alt="">
                   <h4>${products.name}</h4>
-                  <h6>${products.desc}</h6>
+                  <h6>${products.price}</h6>
                 </div>
               </a>        
             </div>

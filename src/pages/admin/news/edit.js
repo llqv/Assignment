@@ -47,7 +47,7 @@ const adminEditPost = {
             </div>
            
         </div>  
-          <button type="submit" class="btn btn-primary">Update Product</button>
+          <button type="submit" class=" btn-primary">Update Product</button>
     </form>
         `
     },
@@ -75,7 +75,6 @@ const adminEditPost = {
                 })
                 imgLink = data.url
             }
-
 
             // call api thêm bài viết
             update({
