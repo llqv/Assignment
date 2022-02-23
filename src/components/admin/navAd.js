@@ -6,7 +6,7 @@ const navAd = {
     <nav class="rad-navigation">
       <div class="rad-logo-container">
       
-        <a href="#" class="rad-logo">Ash-Board</a>
+        <a href="/#/admin/dashboard" class="rad-logo">Ash-Board</a>
       </div>
      
     </nav>
@@ -18,7 +18,7 @@ const navAd = {
       <li>
         <a href="/#/admin/dashboard" class="inbox">
           <i></span></i>
-          <span class="rad-sidebar-item">Dashboard</span>
+          <span class="rad-sidebar-item">Products List</span>
         </a>
       </li>
       <li>
@@ -28,7 +28,7 @@ const navAd = {
           <span class="rad-sidebar-item">Add Product</span>
         </a>
       </li>
-      <li><a href="#" class="snooz"><i></i><span class="rad-sidebar-item">Call trends</span></a></li>
+      <li><a href="/#/" class="snooz"><i></i><span class="rad-sidebar-item">Home</span></a></li>
       <li><a href="#" class="done"><i></span></i><span class="rad-sidebar-item">Heat maps</span></a></li>
       <li><a href="#"><i></i><span class="rad-sidebar-item">Settings</span></a></li>
     </ul>

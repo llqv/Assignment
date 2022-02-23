@@ -32,7 +32,7 @@ const adminProductList = {
 				<div class="table-data">${products.price}</div>
 				<ul>
 				<div class="table-data">
-				<span  data-id="${products.id}" class=" btn btn-remove"><button>Delete</button></span>
+				<span data-id="${products.id}" class=" btn btn-remove"><button>Delete</button></span>
 				<a href="/admin/news/${products.id}/edit"><button>Edit</button></a>
 				</div>
 				
